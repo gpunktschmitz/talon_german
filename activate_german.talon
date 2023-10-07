@@ -1,10 +1,10 @@
 language: en_US
 -
-^(german [mode] | deutsch)$:
+^german$:
 	mode.disable("command")
 	mode.enable("user.german")
 
 ^(english | ego | pego)$: skip()
 
-^nimitz <phrase>$:
+^german <phrase>$:
     user.vosk_recognize_german(phrase)
