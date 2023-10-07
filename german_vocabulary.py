@@ -13,7 +13,7 @@ mod = Module()
 
 # NOTE: This method requires this module to be one folder below the top-level
 #   community folder.
-SETTINGS_DIR: Path = Path(__file__).parents[1] / "community" / "settings"
+SETTINGS_DIR: Path = Path(__file__).parents[1] / "gpunkt_talon" / "settings"
 
 if not SETTINGS_DIR.is_dir():
     os.mkdir(SETTINGS_DIR)
